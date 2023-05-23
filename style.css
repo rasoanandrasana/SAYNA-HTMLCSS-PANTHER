@@ -1,0 +1,97 @@
+
+
+
+
+
+.tete{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+   
+   
+}
+@font-face{
+    font-family: 'panthera';
+    src: url(./police/Panthera/PantheraRegular-MVZ9J.ttf);
+    font-family: 'BEYNO';
+    src: url(./police/beyno/BEYNO/BEYNO.ttf);
+    font-family: 'contarell';
+    src: url(./police/cantarell/Cantarell-Regular.ttf);
+}
+
+h1{
+    font-family:'panthera';
+    color: #F2CEF2;
+}
+h2{
+    font-family: 'beyno';
+    color: #F2CEF2;
+}
+p{
+    font-family: 'contarell';
+}
+
+body{
+    background-color: black;
+    color:white;
+    
+}
+
+.lien{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.black{
+    display: flex;
+    margin-left: 10%;
+    background: url(./images/Pantherhome1..png);
+
+    background-size: 70%;
+    background-position: 150% 0;
+    background-repeat: no-repeat;
+    height: 90vh;
+    
+    
+
+}
+.corps{
+    margin-top: 20% ;
+}
+
+.black2{
+    display: flex;
+   background-image: url(./images/arrière_plan.png);
+}
+.logos{
+    display: flex;
+}
+.logos2{
+    margin-left: 10%;
+}
+.foot{
+    
+    background-color: #3D2DA6;
+}
+.foot1{
+    display: flex;
+}
+
+
+
+   
+
+
+    
+
+
+
+
+
+
+
+

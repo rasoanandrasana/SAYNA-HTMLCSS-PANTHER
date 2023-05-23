@@ -1,0 +1,92 @@
+@font-face{
+    font-family: 'panthera';
+    src: url(./police/Panthera/PantheraRegular-MVZ9J.ttf);
+    font-family: 'BEYNO';
+    src: url(./police/beyno/BEYNO/BEYNO.ttf);
+    font-family: 'contarell';
+    src: url(./police/cantarell/Cantarell-Regular.ttf);
+}
+
+h1{
+font-family:'panthera' ;
+color: #F2CEF2;
+}
+h2{
+font-family: 'beyno';
+color: #F2CEF2;
+}
+p{
+font-family: 'contarell';
+}
+
+body{
+    background-color: black;
+    color: white;
+    
+    
+}
+
+
+
+.tete{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+.lien{
+    color: white;
+    text-decoration: none;
+   
+}
+/* partie premier section*/
+  .for{
+    margin-top: 20%;
+  }
+  
+  
+   
+
+
+/*deuxieme partie de section*/
+#texte{
+    display: flex;
+    margin: 5% 5% 5% 10%;
+}
+#texte h1{
+    color:#a674b4 ;
+}
+#texte p{
+    width: 80%;
+}
+
+
+
+
+/*partie footer*/
+
+.footer{
+    background-image: url(./images/back_footer.png);
+    display: flex;
+    padding-left: 10%;
+    padding-top: 20%;
+}
+
+.foot2{
+  position: absolute;
+  padding-top: 20%;
+  padding-left: 10%;
+}
+.retro{
+    margin-left: 10%;
+}
+.tous{
+    position: absolute;
+    padding-top: 40%;
+    padding-left: 30%;
+}
+.foot5{
+  display: flex;
+}
